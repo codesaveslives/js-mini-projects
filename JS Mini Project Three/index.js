@@ -135,6 +135,8 @@ console.log(typeof(sum));
 
 */
 
+/*
+
 // CHALLENGE 7: LOGIN SIMULATION
 hasUsername = true;
 hasPassword = false;
@@ -143,12 +145,22 @@ if (hasUsername && hasPassword) {
     console.log("Login Successful")
 }
 
-/*
-else if (hasUsername || hasPassword){
-    console.log("Login Failed")
-}
-*/ // else if is doing same work with else so it is redundant.
+// else if (hasUsername || hasPassword){
+//    console.log("Login Failed")
+// }
+// else if is doing same work with else so it is redundant.
 
 else {
     console.log("Login Failed")
 }
+
+*/
+
+
+// CHALLENGE 8: STRING MANIPULATION
+let fullName = "Amudipe Olamilekan Victor"
+console.log(fullName.toUpperCase());
+console.log(fullName.toLowerCase());
+console.log(fullName.length);
+console.log(fullName[0]);
+console.log(fullName[fullName.length - 1])
