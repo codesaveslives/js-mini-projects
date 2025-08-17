@@ -156,6 +156,7 @@ else {
 
 */
 
+/*
 
 // CHALLENGE 8: STRING MANIPULATION
 let fullName = "Amudipe Olamilekan Victor"
@@ -164,3 +165,24 @@ console.log(fullName.toLowerCase());
 console.log(fullName.length);
 console.log(fullName[0]);
 console.log(fullName[fullName.length - 1])
+
+*/
+
+// CHALLENGE 9: COMPLEX EXPRESSION
+// create a = 10, b = 3, c = 5.
+// calculate and print:
+// (a + b) * c - (a % b)
+// comment step by step how Js evaluates it
+
+const a = 10;
+
+const b = 3;
+
+const c = 5;
+
+let result = (a + b) * c - (a % b);
+// paranthesis first (13) * 5 - (1)
+// 13 * 5 = 65
+// -1 * 1 = - 1. // according to chat gpt no need for this line
+// 65 - 1 = 64
+console.log(result);
