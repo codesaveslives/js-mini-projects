@@ -16,6 +16,7 @@ function createPasswordChecker(password) {
 
 */
 
+/*
 function createPasswordChecker() {
     return function (password) {
         if (password == "secret123") {
@@ -30,3 +31,13 @@ function createPasswordChecker() {
 
 const checkPassword = createPasswordChecker()
 console.log(checkPassword("test"))
+*/
+
+function createPasswordChecker(password) {
+    return function (input) {
+        return input === password;
+    }
+}
+
+const checkPassword = createPasswordChecker("leader")
+console.log(checkPassword("leader"))
