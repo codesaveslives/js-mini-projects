@@ -40,3 +40,31 @@ while (number < 20) {
 }
 
 */
+
+/*
+
+// 3
+// Countdown
+// start at 10 then count down to 1, then print lift off.
+
+// My solution
+let highestNumber = 11;
+
+while (highestNumber <= 11 && highestNumber > 1) {
+    highestNumber--;
+    console.log(highestNumber);
+}
+
+if (highestNumber === 1) {
+    console.log(`LiftOff`)
+}
+
+// ChatGpt Solution
+let number = 10;
+
+while (number > 0) {
+    console.log(number)
+    number--;
+}
+console.log("liftOff")
+*/
