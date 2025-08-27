@@ -102,3 +102,40 @@ while (count <= 12) {
     count++;
 }
 */
+
+// 6
+// Guess the number
+// Generate a random number between 1 and 10
+// Use a while loop to keep asking the user to guess untill they guess it right.
+
+/*
+// First Solution
+let mysteryNumber = Math.floor(Math.random() * 10) + 1;
+let userGuess = null;
+
+while (userGuess != mysteryNumber) {
+    userGuess = Number(prompt("Guess: "));
+    
+
+}
+
+console.log("Mystery Number is " + mysteryNumber + " You guessed right");
+*/
+
+/*
+// second solution
+let mysteryNumber = Math.floor(Math.random() * 10) + 1;
+let userGuess = null;
+
+while (userGuess != mysteryNumber) {
+    userGuess = Number(prompt("Guess: "));
+    
+    if (userGuess === mysteryNumber) {
+        console.log(userGuess + " is the correct guess!")
+    }else {
+        console.log(userGuess + " is not the correct guess.")
+    }
+
+}
+*/
+
