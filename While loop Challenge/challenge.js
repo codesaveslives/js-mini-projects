@@ -69,7 +69,7 @@ while (number > 0) {
 console.log("liftOff")
 */
 
-
+/*
 // 4
 // Sum Of Numbers
 // Use a while loop to add up numbers from 1 to 100 and print the total.
@@ -85,3 +85,20 @@ while (nextValue <= 100) {
     }
     nextValue++;
 }
+*/
+
+/*
+// 5
+// Multiplication Table
+// ask a user for a number (e.g, 7) and use a while loop to print its multiplication table up to 10.
+
+let product;
+let factor = parseInt(prompt("Enter a Number: "));
+count = 1;
+
+while (count <= 12) {
+    product =  factor * count;
+    console.log(product);
+    count++;
+}
+*/
