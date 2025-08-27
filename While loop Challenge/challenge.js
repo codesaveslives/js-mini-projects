@@ -68,3 +68,20 @@ while (number > 0) {
 }
 console.log("liftOff")
 */
+
+
+// 4
+// Sum Of Numbers
+// Use a while loop to add up numbers from 1 to 100 and print the total.
+let sum = 0;
+
+let nextValue = 1
+
+while (nextValue <= 100) {
+    sum = sum + nextValue;
+
+    if (nextValue === 100) {
+        console.log(sum)
+    }
+    nextValue++;
+}
